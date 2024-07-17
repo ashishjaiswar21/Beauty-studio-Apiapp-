@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Apiapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#EF98B4</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textStyle">bold</item>
+        <item name="color">#F52121</item>
+    </style>
+
+    <style name="Theme.Apiapp" parent="Base.Theme.Apiapp" />
+    <style name="softCorner">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+        <item name="color">#fff</item>
+    </style>
+</resources>
